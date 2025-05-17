@@ -24,8 +24,13 @@ public class Calculator {
             case "+" -> result = firstValue + secondValue;
             case "-" -> result = firstValue - secondValue;
             case "*" -> result = firstValue * secondValue;
-            case "/" -> result = firstValue / secondValue;
-
+            case "/" -> {
+                if (secondValue == 0){
+                    System.out.print("A number cannot be divided by zero! Please type a valid number");
+                } else {
+                    result = firstValue / secondValue;
+                }
+            }
             default -> System.out.println("Choose a valid operator!");
 
         }
