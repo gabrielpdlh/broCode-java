@@ -24,7 +24,7 @@
 ### When create an object, the object goes to heap, and the variable keep the adress where the object is at heap
 
 ## Reference Types examples -
-`String, Arrays, Classes, Interfaces, Enums, Wrapper classes`
+`String, , Classes, Interfaces, Enums, Wrapper classes`
 
 # Resume - 
 
